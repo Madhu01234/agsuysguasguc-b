@@ -1,0 +1,11 @@
+{
+    "rghv064@gmail.com": {
+        "Last check": "2023-02-03",
+        "Today's points": 0,
+        "Points": 0,
+        "Daily": true,
+        "Punch cards": true,
+        "More promotions": true,
+        "PC searches": false
+    }
+}
