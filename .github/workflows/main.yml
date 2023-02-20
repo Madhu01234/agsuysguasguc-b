@@ -31,5 +31,4 @@ jobs:
         run: |
           python MicrosoftRewardsBot.py --headless --fast --emailalerts --accounts "${{ secrets.REWARDS_CREDENTIALS }}"
           python MicrosoftRewardsBot.py --headless --fast --emailalerts --accounts "${{ secrets.REWARDS_CREDENTIALS1 }}"
-          python MicrosoftRewardsBot.py --headless --fast --emailalerts --accounts "${{ secrets.REWARDS_CREDENTIALS3 }}"
 
