@@ -30,6 +30,6 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Code Run
         run: |
-          python MicrosoftRewardsBot.py --headless --fast --emailalerts --accounts "${{ secrets.REWARDS_CREDENTIALS }}"
           python MicrosoftRewardsBot.py --headless --fast --emailalerts --accounts "${{ secrets.REWARDS_CREDENTIALS2 }}"
+          python MicrosoftRewardsBot.py --headless --fast --emailalerts --accounts "${{ secrets.REWARDS_CREDENTIALS }}"
           python MicrosoftRewardsBot.py --headless --fast --emailalerts --accounts "${{ secrets.REWARDS_CREDENTIALS3 }}"
